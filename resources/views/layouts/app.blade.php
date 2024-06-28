@@ -21,6 +21,11 @@
             background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(54, 54, 54, 1) 100%);
         }
 
+        h1 {
+            font-size: 35px;
+            color: white;
+        }
+
         .header {
             top: 0;
             left: 0;
@@ -34,7 +39,7 @@
         }
 
         .logo {
-            font-size: 32px;
+            font-size: 26px;
             color: #D9E400;
             text-decoration: none;
             font-weight: bold;
@@ -285,6 +290,10 @@
         }
 
         @media (max-width: 850px) {
+            .container-form {
+                padding: 1rem;
+            }
+
             .form {
                 grid-template-columns: 1fr;
             }
@@ -374,8 +383,6 @@
         .footer {
             background-color: black;
             width: 100%;
-            position: absolute;
-            bottom: 0;
             padding: 70px 0;
         }
 
@@ -459,7 +466,7 @@
 
 <body>
     <header class="header">
-        <a href="" class="logo">event.(ia)</a>
+        <a href="/" class="logo">event.(ia)</a>
 
         <nav class="navbar">
             <a href="/">Home</a>
@@ -478,24 +485,24 @@
                 <div class="footer-col">
                     <h4>Empresa</h4>
                     <ul>
-                        <li><a href="#">Saiba mais</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Termos e condições</a></li>
+                        <li><a href="/">Saiba mais</a></li>
+                        <li><a href="/">Serviços</a></li>
+                        <li><a href="/">Termos e condições</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Precisa de ajuda ?</h4>
                     <ul>
-                        <li><a href="#">Atendimento</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="/">Atendimento</a></li>
+                        <li><a href="/">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Eventos Online</h4>
                     <ul>
-                        <li><a href="#">Veja mais</a></li>
-                        <li><a href="#">Crie eventos</a></li>
-                        <li><a href="#">Gerencie</a></li>
+                        <li><a href="/">Veja mais</a></li>
+                        <li><a href="/">Crie eventos</a></li>
+                        <li><a href="/">Gerencie</a></li>
                     </ul>
                 </div>
             </div>
