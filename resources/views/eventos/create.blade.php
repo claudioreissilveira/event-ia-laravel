@@ -19,7 +19,7 @@
         position: relative;
         border-radius: 3px;
         border: 1px solid #D9E400;
-        background: linear-gradient(to right, #005c97, #363795);
+        background: linear-gradient(to right, #000, #000);
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
@@ -83,10 +83,6 @@
         margin: 0em;
         padding: 0.4em;
         background: transparent;
-    }
-
-    .inputGroup :is(input:focus, input:valid) {
-        border-color: rgb(37, 37, 211);
     }
 
     .form button {

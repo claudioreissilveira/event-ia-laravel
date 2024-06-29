@@ -493,16 +493,16 @@
                 <div class="footer-col">
                     <h4>Precisa de ajuda ?</h4>
                     <ul>
-                        <li><a href="/">Atendimento</a></li>
-                        <li><a href="/">Contato</a></li>
+                        <li><a href="/contato">Atendimento</a></li>
+                        <li><a href="/contato">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Eventos Online</h4>
                     <ul>
-                        <li><a href="/">Veja mais</a></li>
-                        <li><a href="/">Crie eventos</a></li>
-                        <li><a href="/">Gerencie</a></li>
+                        <li><a href="/eventos">Veja mais</a></li>
+                        <li><a href="/eventos">Crie eventos</a></li>
+                        <li><a href="/eventos">Gerencie</a></li>
                     </ul>
                 </div>
             </div>

@@ -147,7 +147,7 @@
         }
 
         td {
-            width: 110%;
+            width: 250px;
             margin-left: 10px;
         }
 
@@ -188,31 +188,31 @@
         }
 
         tbody td:nth-of-type(1):before {
-            content: "ID";
-        }
-
-        tbody td:nth-of-type(2):before {
             content: "Nome";
         }
 
-        tbody td:nth-of-type(3):before {
+        tbody td:nth-of-type(2):before {
             content: "Descrição";
         }
 
-        tbody td:nth-of-type(4):before {
+        tbody td:nth-of-type(3):before {
             content: "Tipo";
         }
 
-        tbody td:nth-of-type(5):before {
+        tbody td:nth-of-type(4):before {
             content: "Local";
         }
 
-        tbody td:nth-of-type(6):before {
+        tbody td:nth-of-type(5):before {
             content: "Data";
         }
 
+        tbody td:nth-of-type(6):before {
+            content: "Editar";
+        }
+
         tbody td:nth-of-type(7):before {
-            content: "Ações";
+            content: "Deletar";
         }
     }
 
@@ -237,9 +237,11 @@
             font-size: 12px;
         }
 
-        table td {
-            padding: 10px;
+        td {
+            width: 250px;
+            margin-left: 10px;
         }
+
 
         table,
         thead,
@@ -278,32 +280,29 @@
             text-align: left;
         }
 
-        tbody td:nth-of-type(1):before {
-            content: "ID";
-        }
 
-        tbody td:nth-of-type(2):before {
+        tbody td:nth-of-type(1):before {
             content: "Nome";
         }
 
-        tbody td:nth-of-type(3):before {
+        tbody td:nth-of-type(2):before {
             content: "Descrição";
         }
 
-        tbody td:nth-of-type(4):before {
+        tbody td:nth-of-type(3):before {
             content: "Tipo";
         }
 
-        tbody td:nth-of-type(5):before {
+        tbody td:nth-of-type(4):before {
             content: "Local";
         }
 
         tbody td:nth-of-type(6):before {
-            content: "Data";
+            content: "Editar";
         }
 
         tbody td:nth-of-type(7):before {
-            content: "Ações";
+            content: "Deletar";
         }
     }
 

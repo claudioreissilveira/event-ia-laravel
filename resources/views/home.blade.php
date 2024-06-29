@@ -72,7 +72,7 @@
     }
 </style>
 <div class="div_deg">
-    <h1 class="text-fk">Ola</h1>
+    <h1 class="text-fk">Olá.</h1>
     <h2 class="text-fk">Seja bem vindo ao nosso gerenciador de eventos.</h2>
     <a class="a-button" href="/eventos">Saiba Mais</a>
 </div>
